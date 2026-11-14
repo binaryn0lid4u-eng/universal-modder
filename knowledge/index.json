@@ -8803,6 +8803,45 @@
   ]
  },
  {
+  "path": "games/sword-art-online-hollow-realization/ssc-counter-dbghelp-proxy-save-skill-progress.md",
+  "kind": "game",
+  "title": "SSC Counter: the save's hidden Sword Skill Connect combo total shown on the Status screen (dbghelp.dll proxy)",
+  "game": "Sword Art Online: Hollow Realization Deluxe Edition",
+  "games_also": [],
+  "game_version": "Steam app 607890, sao_hr.exe PE timestamp 0x59DF33EF, SizeOfImage 0x10A2000, SHA-256 1923F0D8D2CAD559D6AD6E001AF54EA5EA5AA70171323F42D4E1FA3D63699E43; Windows 11 Pro 26100",
+  "platform": "windows",
+  "engine": "native",
+  "route": "native-hook",
+  "tools": [
+   "MSVC 2022 Build Tools (dbghelp.dll proxy, /MT)",
+   "Capstone (disassembly)",
+   "Keystone (assembling stubs)",
+   "OFS3 TOOL by Liquid-S",
+   "CriPakTools (CRILAYLA reference)"
+  ],
+  "anti_cheat": "none; single-player. The exe on disk, game data and saves are never modified; one call is redirected in memory.",
+  "status": "released",
+  "agents": [
+   "Claude Code (Opus 5.5)"
+  ],
+  "humans": [
+   "BinaryNull"
+  ],
+  "date": "2026-11-14",
+  "links": [],
+  "tags": [
+   "ssc",
+   "sword-skill-connect",
+   "ui",
+   "status-screen",
+   "proxy-dll",
+   "dbghelp",
+   "code-cave",
+   "skill-unlocks",
+   "save-data"
+  ]
+ },
+ {
   "path": "games/teardown/physics-accelerator-native-solver-physx.md",
   "kind": "game",
   "title": "Physics Accelerator: a multi-core replay of Teardown's island solver, two PhysX 5.9 remaps, and a flight recorder (native dsound.dll)",
